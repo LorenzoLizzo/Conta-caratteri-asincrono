@@ -54,7 +54,6 @@ namespace Conta_caratteri_asincorno
                     caratteriContati = tmp;
 
                 }
-                MessageBox.Show("a");
             });
         }
 
@@ -75,6 +74,12 @@ namespace Conta_caratteri_asincorno
                         progressBar.Value = caratteriContati;
                     }));
                 }
+                this.Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    lblCaricamento.Content = "I dati sono stati elaborati";
+                    lblOutput.Content = "I caratteri totali sono: " + caratteriContati;
+                }));
+                
 
             });
         }

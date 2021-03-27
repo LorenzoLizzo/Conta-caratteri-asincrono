@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Conta_caratteri_asincorno"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Conta caratteri" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Conta caratteri" VerticalAlignment="Top" Margin="337,10,0,0"/>
-        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="55" Margin="34,128,0,0" VerticalAlignment="Top" Width="740"/>
-        <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="232,247,0,0"/>
-       
+        <Label x:Name="lblCaricamento" Content="Contando i caratteri del file..." HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="10,71,0,0" Width="772" Height="83" FontSize="48"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="55" Margin="10,159,0,0" VerticalAlignment="Top" Width="772"/>
+        <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,248,0,0" FontSize="36"/>
+
+
 
     </Grid>
 </Window>
