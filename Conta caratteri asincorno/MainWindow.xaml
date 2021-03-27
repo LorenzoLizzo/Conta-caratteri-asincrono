@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="Conta caratteri" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lblCaricamento" Content="Contando i caratteri del file..." HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="10,71,0,0" Width="772" Height="83" FontSize="48"/>
-        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="55" Margin="10,159,0,0" VerticalAlignment="Top" Width="772"/>
-        <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,248,0,0" FontSize="36"/>
-
-
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        
+        <Label x:Name="lblCaricamento" Content="Contando i caratteri del file..." HorizontalAlignment="Center" VerticalAlignment="Bottom" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="772" Height="83" FontSize="48"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Center" Height="55" VerticalAlignment="Top" Width="764" Grid.Row="1"/>
+        <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="36"  Grid.Row="1"/>
     </Grid>
 </Window>
