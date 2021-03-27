@@ -35,37 +35,51 @@ namespace Conta_caratteri_asincorno
         {
             await Task.Run(() =>
             {
+                string file;
                 using (StreamReader sr = new StreamReader("Data.txt"))
                 {
-                    string file = sr.ReadToEnd();
-                    int tmp = 0;
-                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    file = sr.ReadToEnd();
+                }
+                AvanzamentoProgessBar(file);
+                int tmp = 0;
+                while (caratteriContati < file.Length)
+                {
+                    Thread.Sleep(r.Next(0, 61));
+                    tmp = 0;
+                    do
                     {
-                        progressBar.Maximum = file.Length;
-                    }));
-                    while (caratteriContati < file.Length)
-                    {
-                        Thread.Sleep(r.Next(0,81));
-                        tmp = 0;
-                        do
-                        {
-                            tmp = caratteriContati + r.Next(0, file.Length / 200);
+                        tmp = caratteriContati + r.Next(0, file.Length / 150);
 
-                        } while (tmp > file.Length );
-                        caratteriContati = tmp;
-                        this.Dispatcher.BeginInvoke(new Action(() =>
-                        {
-                            progressBar.Value = caratteriContati;
-                        }));
-                      
-                    }
-                    MessageBox.Show("a");
+                    } while (tmp > file.Length);
+                    caratteriContati = tmp;
 
                 }
+                MessageBox.Show("a");
+            });
+        }
+
+        private async void AvanzamentoProgessBar(string file)
+        {
+            await Task.Run(() =>
+            {
+                this.Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    progressBar.Maximum = file.Length;
+                }));
+
+                while (caratteriContati < file.Length)
+                {
+                    Thread.Sleep(r.Next(0, 701));
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        progressBar.Value = caratteriContati;
+                    }));
+                }
+
             });
         }
 
 
-        
+
     }
 }

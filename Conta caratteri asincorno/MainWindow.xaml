@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Conta caratteri" VerticalAlignment="Top" Margin="337,10,0,0"/>
         <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="55" Margin="34,128,0,0" VerticalAlignment="Top" Width="740"/>
         <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="232,247,0,0"/>
+       
 
     </Grid>
 </Window>
