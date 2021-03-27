@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\bin\Debug\Conta caratteri asincorno.exe.config
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\bin\Debug\Conta caratteri asincorno.exe
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\bin\Debug\Conta caratteri asincorno.pdb
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.csprojAssemblyReference.cache
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\MainWindow.g.cs
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\App.g.cs
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno_MarkupCompile.cache
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno_MarkupCompile.lref
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\MainWindow.baml
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.g.resources
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta_caratteri_asincorno.Properties.Resources.resources
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.csproj.GenerateResource.cache
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.exe
+C:\Users\Lorenzo\Desktop\Conta-caratteri-asincrono\Conta caratteri asincorno\obj\Debug\Conta caratteri asincorno.pdb

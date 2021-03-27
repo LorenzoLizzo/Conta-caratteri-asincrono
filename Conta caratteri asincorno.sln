@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta caratteri asincorno", "Conta caratteri asincorno\Conta caratteri asincorno.csproj", "{AD97A130-FFC1-4CF1-99C3-EC0E4269DE93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD97A130-FFC1-4CF1-99C3-EC0E4269DE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD97A130-FFC1-4CF1-99C3-EC0E4269DE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD97A130-FFC1-4CF1-99C3-EC0E4269DE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD97A130-FFC1-4CF1-99C3-EC0E4269DE93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03BE15F3-BE4B-4175-A543-464BCD3195FE}
+	EndGlobalSection
+EndGlobal
